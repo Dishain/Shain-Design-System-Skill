@@ -18,18 +18,25 @@ Used as supplementary material for the **AI for Designers** praktikum by Dmytro 
 
 ## How to install
 
-### Claude Code / Cowork
+### Option 1 — claude.ai (recommended for designers)
+
+1. Download **[shain-dls.zip](https://github.com/Dishain/Shain-Design-System-Skill/releases/latest/download/shain-dls.zip)** from the latest release
+2. Open **claude.ai → Settings → Capabilities → Skills**
+3. Click **+ Create skill** and upload the zip
+4. Enable the skill — done
+
+### Option 2 — Claude Code / Cowork (for the CLI-friendly)
 
 Clone the repo into your skills directory:
 
 ```bash
 cd ~/.claude/skills
-git clone https://github.com/Dishain/shain-design-system-skill.git shain-dls
+git clone https://github.com/Dishain/Shain-Design-System-Skill.git shain-dls
 ```
 
-Claude will auto-discover the skill on next launch.
+Claude will auto-discover the skill on next launch. Update later with `git pull`.
 
-### Using the skill
+## Using the skill
 
 Claude triggers this skill automatically when you mention design systems, Figma
 variables, component specs, token naming, dark mode, or related topics. You can also
