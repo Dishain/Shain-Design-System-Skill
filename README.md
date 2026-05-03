@@ -25,7 +25,7 @@ Used as supplementary material for the **AI for Designers** praktikum by Dmytro 
 3. Click **+ Create skill** and upload the zip
 4. Enable the skill — done
 
-### Option 2 — Claude Code / Cowork (for the CLI-friendly)
+### Option 2 — Claude Code / Cowork (for CLI users)
 
 Clone the repo into your skills directory:
 
